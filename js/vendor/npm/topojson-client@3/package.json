@@ -1,0 +1,8 @@
+{
+  "name": "topojson-client",
+  "version": "3",
+  "main": "dist/topojson-client.min.js",
+  "unpkg": "dist/topojson-client.min.js",
+  "jsdelivr": "dist/topojson-client.min.js",
+  "browser": "dist/topojson-client.min.js"
+}

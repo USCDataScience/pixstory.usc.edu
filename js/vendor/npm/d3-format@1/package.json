@@ -1,0 +1,8 @@
+{
+  "name": "d3-format",
+  "version": "1",
+  "main": "dist/d3-format.min.js",
+  "unpkg": "dist/d3-format.min.js",
+  "jsdelivr": "dist/d3-format.min.js",
+  "browser": "dist/d3-format.min.js"
+}

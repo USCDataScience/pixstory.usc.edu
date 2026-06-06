@@ -1,0 +1,8 @@
+{
+  "name": "d3-geo",
+  "version": "1",
+  "main": "dist/d3-geo.min.js",
+  "unpkg": "dist/d3-geo.min.js",
+  "jsdelivr": "dist/d3-geo.min.js",
+  "browser": "dist/d3-geo.min.js"
+}
