@@ -1,0 +1,172 @@
+/* USC Data Science - Pixstory Data Insights site styles */
+
+/* ── Navbar ─────────────────────────────────────────── */
+.navbar-default {
+    background-color: #990000;
+    border-color: #990000;
+}
+
+.navbar-default .navbar-collapse {
+    background: #990000;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: rgba(227, 190, 66, 0.8);
+    color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #DFB50D;
+    border-color: #DFB50D;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+/* ── Buttons ─────────────────────────────────────────── */
+.btn-primary {
+    background-color: #ffcc00;
+    border: none;
+    color: #000;
+    font-weight: 600;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #ffdb4d;
+    color: #000;
+    border: none;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+.btn-default:hover,
+.btn-default:focus {
+    background-color: #FFCC00;
+    color: #000;
+    border-color: #FFCC00;
+}
+
+/* ── Hero / Intro ────────────────────────────────────── */
+.pixstory-intro {
+    background-image:
+        linear-gradient(rgba(26, 10, 62, 0.30), rgba(26, 10, 62, 0.55)),
+        url('../images/pixstory-banner.svg') !important;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+#intro .title {
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 4cm;
+    text-shadow: 0 4px 18px rgba(0,0,0,0.75);
+    color: #fff;
+}
+
+#irdsgroup {
+    color: #fff;
+}
+#irdsgroup:hover {
+    color: #FFCC00;
+    text-decoration: none;
+}
+
+/* ── About / Features ────────────────────────────────── */
+.about-divider {
+    border-color: #990000;
+    border-width: 2px;
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+.featurette-divider {
+    border-color: #ddd;
+    border-width: 1px;
+    margin: 20px 0;
+}
+
+.jumbotron {
+    background: #fdfaff;
+    border-left: 5px solid #7b2d8b;
+}
+
+/* ── Team Cards ──────────────────────────────────────── */
+.thumbnail.team-card {
+    min-height: 430px;
+    border: 1px solid #d8c8e8;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 24px;
+    -webkit-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+.thumbnail.team-card:hover {
+    box-shadow: 0 4px 18px rgba(123,45,139,0.18);
+}
+.thumbnail.team-card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    margin-top: 0;
+}
+.thumbnail.team-card .caption h3 {
+    color: #7b2d8b;
+    font-weight: 700;
+}
+
+/* ── Partner / Footer panels ─────────────────────────── */
+#learn-more .panel.panel-info {
+    border-color: #7b2d8b;
+}
+#learn-more .panel.panel-info .panel-heading {
+    background-color: #7b2d8b;
+    border-color: #7b2d8b;
+    color: #fff;
+}
+#learn-more .panel .panel-body {
+    min-height: 220px;
+    font-size: 15pt;
+}
+#learn-more .btn-info {
+    background-color: #990000;
+    border-color: #990000;
+    color: #fff;
+}
+#learn-more .btn-info:hover {
+    background-color: #770000;
+    border-color: #770000;
+}
+
+/* ── Credits ─────────────────────────────────────────── */
+footer p {
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+.credits-section {
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+/* ── Viz iframes ─────────────────────────────────────── */
+.viz-embed iframe {
+    width: 100%;
+    height: 620px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* ── Responsive tweaks ───────────────────────────────── */
+@media (max-width: 767px) {
+    #intro .title {
+        font-size: 42px;
+        margin-top: 2cm;
+    }
+}

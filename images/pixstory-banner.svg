@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 600" width="1400" height="600">
+  <defs>
+    <linearGradient id="px-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:#1a0a3e"/>
+      <stop offset="35%"  style="stop-color:#3d1060"/>
+      <stop offset="65%"  style="stop-color:#c0402a"/>
+      <stop offset="100%" style="stop-color:#e8820a"/>
+    </linearGradient>
+    <linearGradient id="px-card1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:#e84393"/>
+      <stop offset="100%" style="stop-color:#ff6b6b"/>
+    </linearGradient>
+    <linearGradient id="px-card2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:#4facfe"/>
+      <stop offset="100%" style="stop-color:#00f2fe"/>
+    </linearGradient>
+    <linearGradient id="px-card3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:#43e97b"/>
+      <stop offset="100%" style="stop-color:#38f9d7"/>
+    </linearGradient>
+    <linearGradient id="px-card4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:#f7971e"/>
+      <stop offset="100%" style="stop-color:#ffd200"/>
+    </linearGradient>
+    <linearGradient id="px-card5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:#a18cd1"/>
+      <stop offset="100%" style="stop-color:#fbc2eb"/>
+    </linearGradient>
+    <filter id="px-shadow">
+      <feDropShadow dx="3" dy="4" stdDeviation="5" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+    <filter id="px-glow">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="px-softblur">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <!-- Background gradient -->
+  <rect width="1400" height="600" fill="url(#px-bg)"/>
+
+  <!-- Subtle dot-grid texture -->
+  <g fill="rgba(255,255,255,0.04)">
+    <circle cx="50"   cy="50"  r="2"/><circle cx="150"  cy="50"  r="2"/><circle cx="250" cy="50"  r="2"/>
+    <circle cx="350"  cy="50"  r="2"/><circle cx="450"  cy="50"  r="2"/><circle cx="550" cy="50"  r="2"/>
+    <circle cx="650"  cy="50"  r="2"/><circle cx="750"  cy="50"  r="2"/><circle cx="850" cy="50"  r="2"/>
+    <circle cx="950"  cy="50"  r="2"/><circle cx="1050" cy="50"  r="2"/><circle cx="1150" cy="50" r="2"/>
+    <circle cx="1250" cy="50"  r="2"/><circle cx="1350" cy="50"  r="2"/>
+    <circle cx="50"   cy="150" r="2"/><circle cx="150"  cy="150" r="2"/><circle cx="250" cy="150" r="2"/>
+    <circle cx="350"  cy="150" r="2"/><circle cx="450"  cy="150" r="2"/><circle cx="550" cy="150" r="2"/>
+    <circle cx="650"  cy="150" r="2"/><circle cx="750"  cy="150" r="2"/><circle cx="850" cy="150" r="2"/>
+    <circle cx="950"  cy="150" r="2"/><circle cx="1050" cy="150" r="2"/><circle cx="1150" cy="150" r="2"/>
+    <circle cx="1250" cy="150" r="2"/><circle cx="1350" cy="150" r="2"/>
+    <circle cx="50"   cy="250" r="2"/><circle cx="150"  cy="250" r="2"/><circle cx="250" cy="250" r="2"/>
+    <circle cx="350"  cy="250" r="2"/><circle cx="450"  cy="250" r="2"/><circle cx="550" cy="250" r="2"/>
+    <circle cx="650"  cy="250" r="2"/><circle cx="750"  cy="250" r="2"/><circle cx="850" cy="250" r="2"/>
+    <circle cx="950"  cy="250" r="2"/><circle cx="1050" cy="250" r="2"/><circle cx="1150" cy="250" r="2"/>
+    <circle cx="1250" cy="250" r="2"/><circle cx="1350" cy="250" r="2"/>
+    <circle cx="50"   cy="350" r="2"/><circle cx="150"  cy="350" r="2"/><circle cx="250" cy="350" r="2"/>
+    <circle cx="350"  cy="350" r="2"/><circle cx="450"  cy="350" r="2"/><circle cx="550" cy="350" r="2"/>
+    <circle cx="650"  cy="350" r="2"/><circle cx="750"  cy="350" r="2"/><circle cx="850" cy="350" r="2"/>
+    <circle cx="950"  cy="350" r="2"/><circle cx="1050" cy="350" r="2"/><circle cx="1150" cy="350" r="2"/>
+    <circle cx="1250" cy="350" r="2"/><circle cx="1350" cy="350" r="2"/>
+    <circle cx="50"   cy="450" r="2"/><circle cx="150"  cy="450" r="2"/><circle cx="250" cy="450" r="2"/>
+    <circle cx="350"  cy="450" r="2"/><circle cx="450"  cy="450" r="2"/><circle cx="550" cy="450" r="2"/>
+    <circle cx="650"  cy="450" r="2"/><circle cx="750"  cy="450" r="2"/><circle cx="850" cy="450" r="2"/>
+    <circle cx="950"  cy="450" r="2"/><circle cx="1050" cy="450" r="2"/><circle cx="1150" cy="450" r="2"/>
+    <circle cx="1250" cy="450" r="2"/><circle cx="1350" cy="450" r="2"/>
+    <circle cx="50"   cy="550" r="2"/><circle cx="150"  cy="550" r="2"/><circle cx="250" cy="550" r="2"/>
+    <circle cx="350"  cy="550" r="2"/><circle cx="450"  cy="550" r="2"/><circle cx="550" cy="550" r="2"/>
+    <circle cx="650"  cy="550" r="2"/><circle cx="750"  cy="550" r="2"/><circle cx="850" cy="550" r="2"/>
+    <circle cx="950"  cy="550" r="2"/><circle cx="1050" cy="550" r="2"/><circle cx="1150" cy="550" r="2"/>
+    <circle cx="1250" cy="550" r="2"/><circle cx="1350" cy="550" r="2"/>
+  </g>
+
+  <!-- Glowing orb top-center -->
+  <circle cx="700" cy="140" r="130" fill="rgba(232,130,200,0.07)" filter="url(#px-glow)"/>
+
+  <!-- Scattered photo-frame cards (rotated rectangles) -->
+
+  <!-- Card 1 - upper left pink -->
+  <g transform="rotate(-12, 180, 160)" filter="url(#px-shadow)">
+    <rect x="80" y="60" width="200" height="200" rx="8" fill="url(#px-card1)" opacity="0.88"/>
+    <rect x="88" y="68" width="184" height="140" rx="4" fill="rgba(255,255,255,0.15)"/>
+    <!-- Camera icon inside -->
+    <circle cx="180" cy="138" r="28" fill="rgba(255,255,255,0.3)"/>
+    <circle cx="180" cy="138" r="18" fill="rgba(255,255,255,0.5)"/>
+    <rect x="164" y="108" width="32" height="22" rx="4" fill="rgba(255,255,255,0.4)"/>
+    <!-- Like strip -->
+    <rect x="88" y="208" width="184" height="44" rx="0" fill="rgba(0,0,0,0.25)"/>
+    <text x="104" y="236" font-family="Arial,sans-serif" font-size="20" fill="white" opacity="0.9">♥ 248  💬 14</text>
+  </g>
+
+  <!-- Card 2 - upper right cyan -->
+  <g transform="rotate(8, 1220, 130)" filter="url(#px-shadow)">
+    <rect x="1120" y="40" width="200" height="180" rx="8" fill="url(#px-card2)" opacity="0.85"/>
+    <rect x="1128" y="48" width="184" height="120" rx="4" fill="rgba(255,255,255,0.15)"/>
+    <!-- Map pin -->
+    <path d="M1220,78 C1207,78 1196,89 1196,102 C1196,118 1220,145 1220,145 C1220,145 1244,118 1244,102 C1244,89 1233,78 1220,78 Z" fill="rgba(255,255,255,0.6)"/>
+    <circle cx="1220" cy="102" r="10" fill="rgba(255,255,255,0.9)"/>
+    <rect x="1128" y="168" width="184" height="44" rx="0" fill="rgba(0,0,0,0.25)"/>
+    <text x="1140" y="196" font-family="Arial,sans-serif" font-size="18" fill="white" opacity="0.9">📍 Global Story</text>
+  </g>
+
+  <!-- Card 3 - lower left green -->
+  <g transform="rotate(6, 160, 420)" filter="url(#px-shadow)">
+    <rect x="60" y="330" width="200" height="200" rx="8" fill="url(#px-card3)" opacity="0.82"/>
+    <rect x="68" y="338" width="184" height="130" rx="4" fill="rgba(255,255,255,0.12)"/>
+    <!-- Hashtag -->
+    <text x="100" y="420" font-family="Arial,sans-serif" font-size="58" font-weight="bold" fill="rgba(255,255,255,0.5)">#</text>
+    <rect x="68" y="468" width="184" height="54" rx="0" fill="rgba(0,0,0,0.22)"/>
+    <text x="82" y="500" font-family="Arial,sans-serif" font-size="16" fill="white" opacity="0.9">#PixStory  #DataViz</text>
+  </g>
+
+  <!-- Card 4 - lower right amber -->
+  <g transform="rotate(-7, 1230, 440)" filter="url(#px-shadow)">
+    <rect x="1130" y="350" width="200" height="180" rx="8" fill="url(#px-card4)" opacity="0.85"/>
+    <rect x="1138" y="358" width="184" height="118" rx="4" fill="rgba(255,255,255,0.12)"/>
+    <!-- Star burst -->
+    <polygon points="1230,368 1238,388 1260,388 1244,400 1250,422 1230,410 1210,422 1216,400 1200,388 1222,388" fill="rgba(255,255,255,0.6)"/>
+    <rect x="1138" y="476" width="184" height="46" rx="0" fill="rgba(0,0,0,0.22)"/>
+    <text x="1150" y="505" font-family="Arial,sans-serif" font-size="16" fill="white" opacity="0.9">⭐ Top Story 2023</text>
+  </g>
+
+  <!-- Card 5 - center-left small, purple -->
+  <g transform="rotate(-4, 440, 300)" filter="url(#px-shadow)">
+    <rect x="370" y="240" width="140" height="140" rx="8" fill="url(#px-card5)" opacity="0.80"/>
+    <rect x="378" y="248" width="124" height="90" rx="4" fill="rgba(255,255,255,0.12)"/>
+    <!-- Speech bubble -->
+    <rect x="395" y="258" width="90" height="55" rx="10" fill="rgba(255,255,255,0.45)"/>
+    <polygon points="420,313 408,328 436,313" fill="rgba(255,255,255,0.45)"/>
+    <text x="400" y="283" font-family="Arial,sans-serif" font-size="11" fill="#4a0060">Story</text>
+    <text x="400" y="298" font-family="Arial,sans-serif" font-size="11" fill="#4a0060">telling</text>
+    <rect x="378" y="338" width="124" height="34" rx="0" fill="rgba(0,0,0,0.20)"/>
+    <text x="390" y="360" font-family="Arial,sans-serif" font-size="13" fill="white" opacity="0.9">💬 92 replies</text>
+  </g>
+
+  <!-- Card 6 - center-right small, re-pink -->
+  <g transform="rotate(10, 970, 260)" filter="url(#px-shadow)">
+    <rect x="900" y="190" width="140" height="140" rx="8" fill="url(#px-card1)" opacity="0.75"/>
+    <rect x="908" y="198" width="124" height="90" rx="4" fill="rgba(255,255,255,0.12)"/>
+    <!-- Heart shape -->
+    <path d="M970,218 C966,210 956,208 950,216 C944,224 950,234 970,248 C990,234 996,224 990,216 C984,208 974,210 970,218 Z" fill="rgba(255,255,255,0.65)"/>
+    <rect x="908" y="288" width="124" height="34" rx="0" fill="rgba(0,0,0,0.22)"/>
+    <text x="920" y="310" font-family="Arial,sans-serif" font-size="13" fill="white" opacity="0.9">♥ 1.2k likes</text>
+  </g>
+
+  <!-- Large camera icon - center, slight transparency, decorative -->
+  <g transform="translate(700, 260)" opacity="0.18">
+    <!-- Camera body -->
+    <rect x="-75" y="-50" width="150" height="110" rx="14" fill="white"/>
+    <!-- Viewfinder bump -->
+    <rect x="-22" y="-66" width="44" height="22" rx="6" fill="white"/>
+    <!-- Lens outer -->
+    <circle cx="0" cy="12" r="42" fill="none" stroke="white" stroke-width="6"/>
+    <!-- Lens inner -->
+    <circle cx="0" cy="12" r="28" fill="none" stroke="white" stroke-width="4"/>
+    <circle cx="0" cy="12" r="14" fill="white" opacity="0.5"/>
+    <!-- Flash dot -->
+    <circle cx="52" cy="-20" r="8" fill="white"/>
+  </g>
+
+  <!-- Sparkle/star accents -->
+  <g fill="rgba(255,255,255,0.75)" font-family="Arial,sans-serif">
+    <text x="328" y="130" font-size="22">✦</text>
+    <text x="1040" y="200" font-size="18">✦</text>
+    <text x="650" y="520" font-size="16">✦</text>
+    <text x="870" y="80"  font-size="14">✦</text>
+    <text x="520" y="480" font-size="20">✦</text>
+    <text x="1290" y="300" font-size="16">✦</text>
+    <text x="108" y="310" font-size="14">✦</text>
+  </g>
+
+  <!-- Bottom wave / vignette -->
+  <path d="M0,520 Q350,490 700,510 Q1050,530 1400,500 L1400,600 L0,600 Z" fill="rgba(0,0,0,0.35)"/>
+  <rect x="0" y="570" width="1400" height="30" fill="rgba(0,0,0,0.45)"/>
+</svg>

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>USC Data Science - Pixstory Data Insights</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <div id="nav-main">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top" style="color:white">Home</a>
+                </div>
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
+                        <li><a class="page-scroll" href="#about"      style="color:#ffffff">About</a></li>
+                        <li><a class="page-scroll" href="#features"   style="color:#ffffff">Teams</a></li>
+                        <li><a class="page-scroll" href="#search"     style="color:#ffffff">Dataset</a></li>
+                        <li><a class="page-scroll" href="#learn-more" style="color:#ffffff">Partners</a></li>
+                    </ul>
+                    <a href="http://usc.edu" class="pull-right" style="margin-top:10px">
+                        <img src="images/usc-shield-name-white.svg" width="160px" height="38px" alt="USC">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Hero -->
+    <section id="intro" class="intro-section pixstory-intro">
+        <div class="container" style="padding-top:100px">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="title">Pixstory Data Insights</h1>
+                    <br>
+                    <a style="text-decoration:none" href="http://irds.usc.edu/">
+                        <h3 id="irdsgroup">USC Data Science</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="row" style="padding-top:15px">
+                <div class="col-md-12">
+                    <a class="btn btn-default btn-lg page-scroll" href="#about" style="margin-top:5%">Learn More</a>
+                </div>
+            </div>
+            <div class="row" style="padding-top:20px">
+                <div class="col-md-12">
+                    <a class="btn btn-default btn-lg" href="https://talajune.github.io/dsci550-group4/" target="_blank">Explore Visualizations</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about-section" style="margin-top:-1%; margin-bottom:5%">
+        <div class="container">
+            <div class="row">
+                <hr class="about-divider">
+                <h1>About Us</h1>
+                <hr class="about-divider">
+                <div class="jumbotron" style="margin-bottom:5%; margin-top:3%">
+                    <h2>What is Pixstory Data Insights?</h2>
+                    <p class="lead text-left" style="margin-top:2%">
+                        This site presents DSCI 550 Spring 2023 student work on the
+                        <a href="https://pixstory.com" target="_blank">Pixstory</a> social media dataset.
+                        Pixstory is a story-sharing platform focused on responsible social discourse, providing
+                        a rich dataset of multilingual posts, user demographics, topic interests, toxicity scores,
+                        and geotagged locations. Across three assignments, teams enriched the data and produced
+                        interactive D3 visualizations.
+                    </p>
+                    <p class="lead text-left">
+                        The first assignment asked students to augment the Pixstory dataset with derived features
+                        and at least three additional public datasets (news events, population data, language
+                        corpora). The second assignment added GeoTopicParser, SpaCy named entities, AI-generated
+                        captions, hate-speech and sarcasm scores, and image object-recognition features. The third
+                        assignment asked teams to create D3 mini-sites exploring MEMEX ImageSpace, ImageCat,
+                        GeoParser, and Apache Solr/ElasticSearch workflows.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <div class="media">
+                        <div class="media-body">
+                            <h4 class="media-heading">Extraction &amp; Enrichment</h4>
+                            Students extracted language, toxicity, sarcasm, gender, age, topic interest,
+                            geolocation, and event-context features from Pixstory post metadata and enriched
+                            them with external data sources.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="media">
+                        <div class="media-body">
+                            <h4 class="media-heading">Interactive Visualizer</h4>
+                            Team mini-sites use D3 to explore language distributions, toxicity by demographic,
+                            post geography, topic interest patterns, and social engagement across the Pixstory
+                            platform.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="media">
+                        <div class="media-body">
+                            <h4 class="media-heading">Publicizer</h4>
+                            The gallery preserves student data science work as a static IRDS site deployable
+                            under the USC Data Science pages and browsable without a server.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teams -->
+    <section id="features" class="features-section" style="margin-top:-1%; margin-bottom:5%">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <hr class="featurette-divider">
+                    <h1>Student Visualization Teams</h1>
+                    <hr class="featurette-divider">
+                </div>
+
+                <!-- Card: Group 4 / talajune (Spring 2023) -->
+                <div class="col-sm-6 col-md-6">
+                    <div class="thumbnail team-card">
+                        <img src="images/pixstory-banner.svg" alt="Pixstory Group 4 visualizations">
+                        <div class="caption">
+                            <h3>Group 4 &mdash; Spring 2023</h3>
+                            <p>
+                                Bess Djavadi, Ric Xian, Shreya Raj, Mahika Mushuni, and Tala Tayebi produced
+                                five D3 visualizations: Age &amp; Toxicity by Gender (scatterplot), Posts by
+                                Main Event Topics by Gender (grouped bar), Proportional Frequency by Age &amp;
+                                Interest (stacked bar), Male Identity Attack by Age (box plot), and Objects by
+                                Gender (word cloud).
+                            </p>
+                            <p>
+                                <a href="https://talajune.github.io/dsci550-group4/"
+                                   class="btn btn-primary" role="button" target="_blank">View Visualizations</a>
+                                <a href="https://github.com/talajune/dsci550-group4"
+                                   class="btn btn-default" role="button" target="_blank">GitHub</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card: todd-gavin (Spring 2023) -->
+                <div class="col-sm-6 col-md-6">
+                    <div class="thumbnail team-card">
+                        <img src="images/pixstory-banner.svg" alt="Pixstory todd-gavin visualizations">
+                        <div class="caption">
+                            <h3>Todd Gavin &mdash; Spring 2023</h3>
+                            <p>
+                                Five D3 visualizations from the Pixstory dataset enriched with JPL GeoParser
+                                and ImageSpace: a Bar Chart Race of language counts over time, a Language
+                                Counts Bar Chart, a Word Cloud of post text, a Bubble Chart of topic clusters,
+                                and a US State Choropleth map of Pixstory user locations.
+                            </p>
+                            <p>
+                                <a href="https://todd-gavin.github.io/DSCI550-PixstoryDatasetAnalysisVisualizations/"
+                                   class="btn btn-primary" role="button" target="_blank">View Visualizations</a>
+                                <a href="https://github.com/todd-gavin/DSCI550-PixstoryDatasetAnalysisVisualizations"
+                                   class="btn btn-default" role="button" target="_blank">GitHub</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card: Team 3 / mz0ng (Spring 2023) -->
+                <div class="col-sm-6 col-md-6">
+                    <div class="thumbnail team-card">
+                        <img src="images/pixstory-banner.svg" alt="Pixstory Team 3 visualizations">
+                        <div class="caption">
+                            <h3>Team 3 &mdash; Spring 2023</h3>
+                            <p>
+                                Jimin Ding, Mingyu Zong, Hui Qi, and Xiaoyu Dong built five D3 visualizations
+                                using the Pixstory dataset ingested into Apache Solr: a TimeSeries of post
+                                activity, a Heatmap of engagement, a Sunburst chart of topic hierarchy, an
+                                Index Chart of trending terms, and a Radial Stacked Bar of demographics.
+                            </p>
+                            <p>
+                                <a href="https://mz0ng.github.io/550-HW3/"
+                                   class="btn btn-primary" role="button" target="_blank">View Visualizations</a>
+                                <a href="https://github.com/mz0ng/550-HW3"
+                                   class="btn btn-default" role="button" target="_blank">GitHub</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card: Team 6 / tinawang-jy (Spring 2023) -->
+                <div class="col-sm-6 col-md-6">
+                    <div class="thumbnail team-card">
+                        <img src="images/pixstory-banner.svg" alt="Pixstory Team 6 visualizations">
+                        <div class="caption">
+                            <h3>Team 6 &mdash; Spring 2023</h3>
+                            <p>
+                                Team 6 (DSCI550_SP23_team6) produced five interactive D3 visualizations:
+                                Post Interest Age Range distribution, Hazard Location Bubble chart, Language
+                                Location Map, Age-to-Posting-Time scatter, and an Entertainment Calendar heatmap
+                                — all derived from the Pixstory social media dataset.
+                            </p>
+                            <p>
+                                <a href="https://tinawang-jy.github.io/Pixstroy-D3-Visualization/"
+                                   class="btn btn-primary" role="button" target="_blank">View Visualizations</a>
+                                <a href="https://github.com/tinawang-jy/Pixstroy-D3-Visualization"
+                                   class="btn btn-default" role="button" target="_blank">GitHub</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12" style="margin-top:20px">
+                    <p class="lead">
+                        Know of another DSCI 550 Pixstory visualization project?
+                        <a href="http://irds.usc.edu/">Contact the IRDS group</a> to have it added.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dataset -->
+    <section id="search" class="search-section" style="margin-top:-1%; margin-bottom:5%">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <hr class="featurette-divider">
+                    <h1>Dataset &amp; Tools</h1>
+                    <hr class="featurette-divider">
+                </div>
+                <div class="col-lg-12">
+                    <p class="lead">
+                        The class used the <strong>Pixstory</strong> social media dataset — a collection of
+                        multilingual story posts with user age, gender, topic interest, toxicity scores,
+                        geographic coordinates, and engagement metadata from the Pixstory responsible-discourse
+                        platform. Students enriched the data using Apache Tika, GeoTopicParser, SpaCy, ImageSpace,
+                        and several external event and language datasets.
+                    </p>
+                    <p>
+                        <a class="btn btn-primary btn-lg"
+                           href="https://pixstory.com"
+                           target="_blank">Pixstory Platform</a>
+                        &nbsp;
+                        <a class="btn btn-primary btn-lg"
+                           href="https://talajune.github.io/dsci550-group4/"
+                           target="_blank">Browse Visualizations</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners -->
+    <section id="learn-more" class="learn-more-section">
+        <div class="container">
+            <div class="col-lg-12" style="margin-top:8%">
+                <hr class="featurette-divider" style="margin-top:-1%">
+                <h1 align="center">USC Data Science Partner Sites</h1>
+                <hr class="featurette-divider">
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6" style="margin-top:3%">
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h4><center>IRDS</center></h4></div>
+                        <div class="panel-body">
+                            <p>The Information Retrieval and Data Science Group's mission is to research and
+                            develop open source software to analyze, ingest, process, and manage Big Data and
+                            turn it into information.</p>
+                        </div>
+                        <div class="panel-footer"><center>
+                            <a href="http://irds.usc.edu/" class="btn btn-info">Visit IRDS</a>
+                        </center></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6" style="margin-top:3%">
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><h4><center>Related DSCI 550 Sites</center></h4></div>
+                        <div class="panel-body">
+                            <p>Explore other USC DSCI 550 data visualization archives: UFO sightings, haunted
+                            places, Bigfoot sightings, and phishing email datasets — all built by USC students
+                            using the same IRDS data science pipeline.</p>
+                        </div>
+                        <div class="panel-footer"><center>
+                            <a href="http://ufo.usc.edu/"      class="btn btn-info" style="margin:3px">UFO</a>
+                            <a href="http://haunted.usc.edu/"  class="btn btn-info" style="margin:3px">Haunted</a>
+                            <a href="http://bigfoot.usc.edu/"  class="btn btn-info" style="margin:3px">Bigfoot</a>
+                            <a href="http://phishing.usc.edu/" class="btn btn-info" style="margin:3px">Phishing</a>
+                        </center></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 credits-section">
+                <h3 align="center">Credits</h3>
+                <hr class="featurette-divider">
+                <div class="row">
+                    <p>Dr. Chris Mattmann &mdash; <a href="http://mattmann.ai" style="color:#ffcc00">Visit his website</a></p>
+                    <p>DSCI 550 Spring 2023 Class &mdash; Pixstory web data visualization assignment</p>
+                    <p>
+                        Visualizations by: Group 4 (B. Djavadi, R. Xian, S. Raj, M. Mushuni, T. Tayebi);
+                        Todd Gavin; Team 3 (J. Ding, M. Zong, H. Qi, X. Dong);
+                        Team 6 (T. Wang et al.)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="featurette-divider">
+    <div class="container">
+        <footer><p align="center">&copy; USC Data Science Group. All Rights Reserved.</p></footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+</body>
+</html>
