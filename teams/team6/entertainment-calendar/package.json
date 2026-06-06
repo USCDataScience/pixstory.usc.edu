@@ -1,0 +1,14 @@
+{
+  "name": "05630a2408e06e57",
+  "main": "05630a2408e06e57@949.js",
+  "version": "949.0.0",
+  "homepage": "https://observablehq.com/d/05630a2408e06e57",
+  "author": {
+    "name": "d3-workshop",
+    "url": "https://observablehq.com/@d3-workshop"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
