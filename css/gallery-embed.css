@@ -1,0 +1,17 @@
+/* Student gallery pages embedded in team-shell iframes */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 24px 28px 36px;
+    box-sizing: border-box;
+}
+
+body > h1:first-child,
+body .container > h1:first-child,
+body .banner > h1:first-child {
+    margin-top: 0;
+}

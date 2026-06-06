@@ -1,7 +1,13 @@
 /* Wrapper shell for team visualization pages — keeps site nav visible above student content */
 
+:root {
+    --team-shell-nav-offset: 116px;
+    --team-shell-title-height: 76px;
+    --team-shell-section-gap: 12px;
+}
+
 body.team-shell-body {
-    padding-top: 70px;
+    padding-top: var(--team-shell-nav-offset);
     background: #fdfaff;
     overflow: hidden;
 }
@@ -13,8 +19,8 @@ body.team-shell-body {
 .team-shell-title {
     background: #fff;
     border-bottom: 1px solid #d8c8e8;
-    padding: 12px 0;
-    margin: 0;
+    padding: 16px 0 18px;
+    margin: var(--team-shell-section-gap) 0 8px;
 }
 
 .team-shell-title h2 {
@@ -32,8 +38,14 @@ body.team-shell-body {
 
 .team-viz-frame {
     width: 100%;
-    height: calc(100vh - 130px);
-    min-height: 600px;
+    height: calc(
+        100vh
+        - var(--team-shell-nav-offset)
+        - var(--team-shell-title-height)
+        - var(--team-shell-section-gap)
+        - 8px
+    );
+    min-height: 520px;
     border: 0;
     display: block;
     background: #fff;
