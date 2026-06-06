@@ -1,0 +1,8 @@
+{
+  "name": "d3",
+  "version": "6",
+  "main": "dist/d3.min.js",
+  "unpkg": "dist/d3.min.js",
+  "jsdelivr": "dist/d3.min.js",
+  "browser": "dist/d3.min.js"
+}
