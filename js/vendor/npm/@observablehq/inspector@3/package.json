@@ -1,0 +1,8 @@
+{
+  "name": "@observablehq/inspector",
+  "version": "3",
+  "main": "dist/inspector.min.js",
+  "unpkg": "dist/inspector.min.js",
+  "jsdelivr": "dist/inspector.min.js",
+  "browser": "dist/inspector.min.js"
+}

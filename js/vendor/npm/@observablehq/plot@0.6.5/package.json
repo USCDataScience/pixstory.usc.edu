@@ -1,0 +1,8 @@
+{
+  "name": "@observablehq/plot",
+  "version": "0.6.5",
+  "main": "dist/plot.umd.min.js",
+  "unpkg": "dist/plot.umd.min.js",
+  "jsdelivr": "dist/plot.umd.min.js",
+  "browser": "dist/plot.umd.min.js"
+}

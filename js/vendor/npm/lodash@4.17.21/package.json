@@ -1,0 +1,8 @@
+{
+  "name": "lodash",
+  "version": "4.17.21",
+  "main": "lodash.min.js",
+  "unpkg": "lodash.min.js",
+  "jsdelivr": "lodash.min.js",
+  "browser": "lodash.min.js"
+}

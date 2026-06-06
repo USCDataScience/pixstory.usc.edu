@@ -1,0 +1,8 @@
+{
+  "name": "marked",
+  "version": "0.3.12",
+  "main": "marked.min.js",
+  "unpkg": "marked.min.js",
+  "jsdelivr": "marked.min.js",
+  "browser": "marked.min.js"
+}

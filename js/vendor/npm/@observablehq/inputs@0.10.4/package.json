@@ -1,0 +1,8 @@
+{
+  "name": "@observablehq/inputs",
+  "version": "0.10.4",
+  "main": "dist/inputs.min.js",
+  "unpkg": "dist/inputs.min.js",
+  "jsdelivr": "dist/inputs.min.js",
+  "browser": "dist/inputs.min.js"
+}

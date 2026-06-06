@@ -1,0 +1,8 @@
+{
+  "name": "htl",
+  "version": "0.3.1",
+  "main": "dist/htl.min.js",
+  "unpkg": "dist/htl.min.js",
+  "jsdelivr": "dist/htl.min.js",
+  "browser": "dist/htl.min.js"
+}
