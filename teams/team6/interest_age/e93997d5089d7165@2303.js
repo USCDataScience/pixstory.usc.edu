@@ -1434,7 +1434,7 @@ require("topojson-client@3")
 )}
 
 async function _world(){return(
-(await fetch("https://cdn.jsdelivr.net/npm/world-atlas@1/world/110m.json")).json()
+(await fetch("../../../js/vendor/data/world-atlas-110m.json")).json()
 )}
 
 function _land(topojson,world){return(
@@ -1446,7 +1446,7 @@ topojson.feature(world, world.objects.countries)
 )}
 
 async function _usa(){return(
-(await fetch("https://cdn.jsdelivr.net/npm/us-atlas@^2.1/us/states-10m.json")).json()
+(await fetch("../../../js/vendor/data/us-states-10m.json")).json()
 )}
 
 function _nation(topojson,usa){return(

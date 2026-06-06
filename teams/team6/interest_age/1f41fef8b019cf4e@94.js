@@ -47,7 +47,7 @@ function inspect(value) {
 )}
 
 async function _Inspector(){return(
-(await import("https://cdn.skypack.dev/@observablehq/inspector@3")).Inspector
+(await import("../../../js/vendor/npm/@observablehq/inspector@3/dist/inspector.min.js")).Inspector
 )}
 
 export default function define(runtime, observer) {
